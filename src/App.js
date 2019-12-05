@@ -55,7 +55,7 @@ class App extends Component{
       <div> 
     <div id="div1" className="Header"> </div>
     <br />
-    <Header/>
+    <Header />
     <button id="Add1" className="button">Add</button> 
     <br />
     <br />
