@@ -2,8 +2,8 @@ import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 //import Header from './header.js';
-//class App extends Component{
-/*  render()
+class App extends Component{
+ /*render()
   {
     return (
       <div>
@@ -18,9 +18,10 @@ import './App.css';
         </div>
       </div>
     );
-  }*/
-function App() {
-/*render()
+  }
+}*/
+//function App() {
+render()
 {
   return  (
     <div>
@@ -29,8 +30,8 @@ function App() {
     </div>
   )
 }
-}*/
- return (
+}
+ /*return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -63,8 +64,8 @@ function App() {
    /* <div id="div1" className="Header"> Phone-Directory </div>*/
  // )
   //  } 
-);
-}
+//);
+//}
 
 
 export default App;
