@@ -11,6 +11,15 @@
    justify-content:center;
   
 }
+#div1{
+  background-color: darkslategrey;
+   color:white;
+   align-items:center;
+   font-size:45px;
+   display:flex;
+   justify-content:center;
+  
+}
 .button{
   background-color:black;
   color:white;

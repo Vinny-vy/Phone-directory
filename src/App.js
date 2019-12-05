@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-//import Header from './header.js';
+import Header from './header.js';
 class App extends Component{
- render()
+ /*render()
   {
     return (
       <div>
@@ -20,7 +20,7 @@ class App extends Component{
       </div>
     );
   }
-}
+}*/
 //function App() {
 /*render()
 {
@@ -48,11 +48,14 @@ class App extends Component{
           Learn React
         </a>
       </header>
-    </div>
-   // return (
-     /* <div> 
-    <div id="div1" className="Header"> Phone-Directory </div>
+    </div>*/
+    render()
+    {
+   return (
+      <div> 
+    <div id="div1" className="Header"> </div>
     <br />
+    <Header/>
     <button id="Add1" className="button">Add</button> 
     <br />
     <br />
@@ -60,13 +63,14 @@ class App extends Component{
       <span id="span1">Name</span>  
       <span id="span2">Phone</span>
     </div>
-    </div>*/
+    </div>
    
    /* <div id="div1" className="Header"> Phone-Directory </div>*/
  // )
   //  } 
-//);
-//}
+);
+     }
+    }
 
 
 export default App;
