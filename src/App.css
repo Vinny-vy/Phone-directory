@@ -2,7 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
+#div1{
+  background-color: darkslategrey;
+   color:white;
+   align-items:center;
+   font-size:45px;
+   display:flex;
+   justify-content:center;
+  
+}
+.button{
+  background-color:black;
+  color:white;
+
+}
+#span1{
+  padding:200px;
+  font-size:25px;
+}
+#span2{
+  font-size:25px;
+}
+/*.App-logo {
   height: 40vmin;
 }
 
@@ -19,4 +40,4 @@
 
 .App-link {
   color: #09d3ac;
-}
+}*/
