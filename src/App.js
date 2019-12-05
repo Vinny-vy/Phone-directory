@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 //import Header from './header.js';
-/*class App extends Component{
-  render()
+//class App extends Component{
+/*  render()
   {
     return (
       <div>
@@ -20,7 +20,17 @@ import './App.css';
     );
   }*/
 function App() {
-return (
+/*render()
+{
+  return  (
+    <div>
+
+      Phone Directory
+    </div>
+  )
+}
+}*/
+ return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -55,5 +65,6 @@ return (
   //  } 
 );
 }
+
 
 export default App;
