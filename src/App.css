@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-#div1{
+#Header{
   background-color: darkslategrey;
    color:white;
    align-items:center;
@@ -16,6 +16,14 @@
   color:white;
 
 }
+.classsp1{
+  padding:200px;
+  font-size:25px;
+}
+.classsp2{
+  padding:200px;
+  font-size:25px;
+}
 #span1{
   padding:200px;
   font-size:25px;
@@ -23,6 +31,12 @@
 #span2{
   font-size:25px;
 }
+#buttonb{
+  color:blue;
+  background-color:wheat;
+  padding:5px;
+}
+
 /*.App-logo {
   height: 40vmin;
 }

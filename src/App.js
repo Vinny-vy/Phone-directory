@@ -3,25 +3,26 @@ import logo from './logo.svg';
 import './App.css';
 //import Header from './header.js';
 class App extends Component{
- /*render()
+ render()
   {
     return (
       <div>
-       <div className="header">
-        
+       <div id="Header" className="header">
+        Phone Directory
         </div>
-        <Header/>
-        <button>Add</button>
+        <br />
+        <button id="buttonb">Add</button>
+        <br />
         <div>
-          <span>Name</span><br />
-          <span>Phone</span>
+          <span className="classsp1">Name</span>
+          <span className="classsp2">Phone</span>
         </div>
       </div>
     );
   }
-}*/
+}
 //function App() {
-render()
+/*render()
 {
   return  (
     <div>
@@ -30,7 +31,7 @@ render()
     </div>
   )
 }
-}
+}*/
  /*return (
     <div className="App">
       <header className="App-header">
